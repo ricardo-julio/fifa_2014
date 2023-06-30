@@ -1,0 +1,329 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    background-image: url(Estadio_Maracana_FIFA_Copa_2014_Projeto_Arquitetura_InternaTorcida.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    background-color:white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 250, 200);
+    max-width: 992px;
+    margin: 0 auto;
+    max-width: max-content;
+    border-radius: 13px;
+}
+.nav-link{
+    color:blue;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+
+.nav-menu-link:hover{
+    background-color: rgba(0, 0, 0, 0.63);
+    transition: 0.5s;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: opx;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+/*copa*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  
+    width: 100%;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*lema*/
+.lema{
+
+    border: 1px solid #bcf404;
+    background-color: #7def0448;
+   display: flex;
+    grid-template-columns: auto auto;
+    padding: 7px;
+    padding-left: 0.5%;
+    border-radius: 15px;
+    box-shadow: 3px 3px #bcf404;
+}
+.war{
+  color: rgba(0, 0, 255, 0.776);
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px;
+    
+}
+.lema1{
+    border: 1px solid #fff ;
+    margin: 30px;
+    padding: 0%;
+    /* max-width: 305px; */
+    border-radius: 10px;
+    background-color: #c4d7b213;
+    height: 400px;
+    font-size: 20px;
+    color: rgba(255, 217, 0, 0.9);
+    box-shadow: 2px 5px;
+}
+
+.img1{
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba(255, 217, 0, 0.616);
+}
+.lema2{
+    
+   margin: 30px;
+
+}
+/*ciudades*/
+.ciudades{
+    border: 3px solid #0abd75f0 ;
+    opacity: 0.822;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 90px;
+    padding: 7px;
+    background-color: rgba(0, 255, 255, 0.288);
+    border-radius: 15px;
+    box-shadow: 2px 2px #0abd75b7;
+}
+.borde1 img{
+    box-shadow: 4px 4px  #0abd75f5 ; 
+    max-width: 65%;
+   
+}
+
+.borde1 img{
+    border-radius: 15px;
+    
+}
+
+.borde2 {
+    border: 1px solid #fff;
+    max-width: 57%;
+    max-width: min-content;
+}
+
+.borde2 img{
+    border-radius: 15px;
+    box-shadow: 4px 4px  #0abd75b4 ;
+}
+
+.borde3{
+    
+    max-width: 59%;
+    
+}
+
+.borde3  img{
+    border-radius: 15px;
+    box-shadow: 4px 4px #0abd75b4 ;
+}
+
+
+/*parrafos*/
+.ciudadestex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 100px;
+    
+}
+
+.eche{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.473);
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 2px 2px #0abd75b7;
+}
+.eche1{
+    padding-left:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.473);
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 2px 2px #0abd75b7;
+}
+.eche2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-left: 50px;
+   padding: 10px;
+    background-color: rgba(0, 255, 255, 0.473);
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 2px 2px #0abd75b7;
+}
+/*titulos*/
+h1{
+    color: blue;
+    text-align: center;
+}
+.tciudad{
+    color: blue;
+    text-align: center;
+    padding: 15px;
+    background:aquamarine ;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+/*bordedeimagenes*/
+.putas{
+    border: 3px dashed blue;
+    
+}
+
+.estadiosprin{
+    margin-top: 100px;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+
+/*estadios*/
+.doble{
+    border: 3px solid #8EAC50;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 90px;
+    padding: 4px;
+    box-shadow: 2px 2px  #15ff005b;
+    background-color: #15ff005b;
+    border-radius: 15px;
+}
+.doble1{
+    border: 3px solid #8EAC50;
+    border-radius: 15px;
+    padding: 1px;
+    margin-left:1%;
+    max-width: 60%;
+    box-shadow: 2px 2px  #15ff005b;
+    
+}
+.doble2{
+    border: 3px solid #8EAC50;
+    border-radius: 15px;
+    max-width: 65%;
+    box-shadow: 2px 2px  #15ff005b;
+}
+
+
+/*equipos*/
+.tare{
+    border: 3px solid #B31312;
+    display: flex;
+    grid-column: auto auto;
+    background: #ff66668e;
+    border-radius: 15px;
+    box-shadow: 4px 4px #B31312;
+    color: #fff;
+}
+
+.tare img{
+    border-radius: 15px;
+    box-shadow: 4px 4px #B31312;
+}
+
+.wer{
+    
+    padding: 4px;
+    margin: 30px;
+    
+    
+}
+.taro{
+    margin-left:30px;
+  margin-right: 0%;
+  border-right: 3px  solid #B31312;
+  padding: 10px;
+}
+/*fiesta*/
+.fiesta{
+    background: #9484d19e;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 15px;
+}
+.gf{
+    
+}
+/*patrocinadores*/
+.logos5{
+    background-color: #2D4356;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+   padding: -30px;
+   border-radius: 10px;
+   border: 2px solid black;
+}
+
